@@ -1,0 +1,51 @@
+
+
+makeBreadth() {
+	
+	if (we can make folders) && (we don't exceed current depth)
+
+		mkdir
+
+		depth++
+
+		makeBreadth
+
+	if (we can't make folders but we don't exceed current depth)
+
+		for (each folder in directory)
+
+			step into the directory
+
+			increment depth
+
+			call makeBreadth
+
+			step out of the directory
+
+			decrement depth
+
+}
+
+breadthFirst() {
+	
+	while (we haven't reached last layer of tree)
+
+		call makeBreadth
+
+		increment layer
+
+}
+
+# Useful Commands
+#
+#      ${PWD##*/}              - this will give us the current directory
+#
+#      sleep NUM_OF_SECONDS    - slows our bash script for clarity
+#
+#      commandName > /dev/null - this is the @echo off equivalent in Windows
+
+
+
+
+
+
